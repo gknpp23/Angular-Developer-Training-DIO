@@ -1,0 +1,27 @@
+.title__description__container{
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content: center;
+    gap:15px;    
+    height: 15rem;
+
+}
+
+.title__description__container .label {
+    background-color: #3f3e3e;
+    padding: 2px;
+    color: #b1adad;
+    width: 3rem;
+    height: 1.25rem;
+    align-self: center;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 0.75em;
+}
+.title__description__container p, h1 {
+    width: 20rem;
+    align-self: center;
+    text-align: center;
+}
