@@ -1,0 +1,13 @@
+.articles{
+    margin: 0 10%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+   
+}
+
+.articles__additional{
+    display: flex;
+    flex-direction: column;
+    gap:2.9rem
+}
