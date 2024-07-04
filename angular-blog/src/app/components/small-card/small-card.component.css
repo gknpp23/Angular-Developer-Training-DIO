@@ -13,3 +13,16 @@
     border: 1.5px #b9010177 solid;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg);
 }
+
+.small-card__title{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.small-card__title > h2 {
+    font-size: large;
+}
