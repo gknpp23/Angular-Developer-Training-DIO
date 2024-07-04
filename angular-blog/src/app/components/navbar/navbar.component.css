@@ -1,0 +1,23 @@
+.navbar__container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+   
+    height: 10vh;
+}
+
+.navbar-links__container{
+    background-color: white;
+    color: #363636;
+    padding: 1.25rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.navbar-links__container li a{
+    background-color: white;
+    color: #363636;
+}
+.navbar-links__container img{
+    width: 0.5rem;
+}
