@@ -1,19 +1,20 @@
 <div class="big-card__container">
     <div class="big-card__picture">
         <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" alt="Image"
+        src={{photoCover}} 
+        alt="Image"
         width="350px"
         height="300px"
         >
     </div>
 
     <div class="big-card__title">
-        <app-label></app-label>
+        <app-label textLabel="Main"></app-label>
         <a href=""></a>
-        <h2><a href="">First post on the blog</a></h2>
+        <h2><a href="">{{ cardTitle }}</a></h2>
         <p>
             <a href="">
-                Desde CSS que desmorona no Internet Explorer até nomes de variáveis como banana e coisa_123, cada dia traz novos desafios e risadas. 
+                {{ cardDescription }}
             </a>
             
         </p>

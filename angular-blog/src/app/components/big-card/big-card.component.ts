@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -10,6 +10,13 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class BigCardComponent implements OnInit {
+
+  @Input() // Diretiva que torna a propriedade inputável
+  photoCover: string = "https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg"
+  @Input()
+  cardTitle: string = ""
+  @Input()
+  cardDescription: string = ""
 
   constructor() { }
 

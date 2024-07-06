@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -10,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class SmallCardComponent implements OnInit {
-
+  @Input() // Diretiva que torna a propriedade inputável
+  smallPhotoCover: string = ""
+  @Input()
+  smallCardTitle: string = ""
+ 
   constructor() { }
 
   ngOnInit(): void {

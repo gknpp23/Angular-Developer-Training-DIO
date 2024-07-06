@@ -5,13 +5,14 @@
     width: 25rem;
     height: 9rem;
 }
-
+.small-card__picture {
+    border: 1.5px #b9010177 solid;
+    margin: 0 10px;
+    padding: 5px;
+}
 .small-card__picture > img{
     width: 125px;
-    height: 90px;
-    margin: 0 10px;
-    border: 1.5px #b9010177 solid;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg);
+    height: 90px;       
 }
 
 .small-card__title{
