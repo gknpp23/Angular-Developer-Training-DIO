@@ -1,5 +1,5 @@
 .navbar__container{
-    background-color: white;
+    
     display: flex;
     justify-content: space-between;
    
@@ -7,17 +7,18 @@
 }
 
 .navbar-links__container{
-    background-color: white;
-    color: #363636;
+    
+    color: #ffffff;
     padding: 1.25rem;
     display: flex;
     gap: 1.5rem;
     align-items: center;
 }
 .navbar-links__container li a{
-    background-color: white;
-    color: #363636;
+    
+    color: #ffffff;
 }
 .navbar-links__container img{
     width: 0.5rem;
+    background-image: url('/home/gabriel/Cursos - Estudos/Bootcamps - DIO/Angular-Developer-Training-DIO/angular-blog/src/assets/image/logo.png');
 }

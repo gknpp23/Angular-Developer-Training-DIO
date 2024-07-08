@@ -1,11 +1,11 @@
 .title__description__container{
-    margin: auto;
+    margin: 2rem auto 1rem;
     display:flex;
     flex-direction: column;
     align-content:space-between;
     justify-content: center;
     gap:15px;    
-    height: 15rem;
+    height: 10rem;
 
 }
 
@@ -24,4 +24,9 @@
     width: 20rem;
     align-self: center;
     text-align: center;
+}
+
+.title__description__container h1{
+    font-weight: 900;
+    font-size: 37.5px;
 }

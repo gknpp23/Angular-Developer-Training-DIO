@@ -1,6 +1,6 @@
-
 .articles{
     margin: 0 10%;
+    padding-bottom: 1.5rem;
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
