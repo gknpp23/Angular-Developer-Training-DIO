@@ -10,5 +10,5 @@
 .articles__additional{
     display: flex;
     flex-direction: column;
-    gap:2.9rem
+    gap:2rem
 }

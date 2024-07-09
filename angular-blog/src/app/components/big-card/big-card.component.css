@@ -1,6 +1,6 @@
 .big-card__container{
     width: 25rem;
-    height: 33rem;
+    height: 31rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,8 @@
     margin-top: 25px;
     border: 1.5px #b9010177 solid;
     min-width: 100%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg);
+     
+   
 }
 .big-card__title > h2{
     font-size: 1.25rem;
