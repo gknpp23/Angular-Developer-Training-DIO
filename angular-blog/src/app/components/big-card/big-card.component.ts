@@ -19,7 +19,8 @@ export class BigCardComponent implements OnInit {
   cardDescription: string = ""
   @Input()
   textLabel: string = ""
-  
+  @Input()
+  bgColorLabel: string = ""
   constructor() { }
 
   ngOnInit(): void {

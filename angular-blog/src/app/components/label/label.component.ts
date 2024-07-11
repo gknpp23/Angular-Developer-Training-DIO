@@ -14,7 +14,7 @@ export class LabelComponent implements OnInit {
   @Input()
   textLabel: string = ""
   @Input()
-  bgColor: string = ""
+  bgColorLabel: string = ""
 
   
   constructor() { }

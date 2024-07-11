@@ -17,7 +17,7 @@ export class SmallCardComponent implements OnInit {
   @Input()
   textLabel: string = ""
   @Input()
-  dinamicStyles: object = {}
+  bgColorLabel: string = ""
  
   constructor() { }
 
