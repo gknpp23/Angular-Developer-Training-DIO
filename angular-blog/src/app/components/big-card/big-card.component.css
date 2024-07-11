@@ -9,15 +9,18 @@
 }
 .big-card__title{
     padding: 1.5rem;
+    align-self: flex-start;
+    margin-left: 1.5rem;
 }
 
 
 .big-card__picture > img{
     
-    padding: 1.5rem 0;
+    padding: 0.5rem;
     margin-top: 25px;
-    /* border: 1.5px #b9010177 solid; */
-    min-width: auto;
+    border: 1.5px #b9010177 solid;
+    width: 100%;   
+    
    
      
    

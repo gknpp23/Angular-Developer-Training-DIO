@@ -1,7 +1,6 @@
 .label {
-    background-color: #3f3e3e;
     padding: 2px;
-    color: #b1adad;
+    color: #ffffff;
     width: 5rem;
     height: 1.25rem;
     align-self: center;
@@ -9,3 +8,6 @@
     border-radius: 2rem;
     font-size: 0.75em;
 }
+
+
+

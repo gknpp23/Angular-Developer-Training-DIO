@@ -14,6 +14,10 @@ export class SmallCardComponent implements OnInit {
   smallPhotoCover: string = ""
   @Input()
   smallCardTitle: string = ""
+  @Input()
+  textLabel: string = ""
+  @Input()
+  dinamicStyles: object = {}
  
   constructor() { }
 
