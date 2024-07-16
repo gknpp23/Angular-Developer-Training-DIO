@@ -1,3 +1,15 @@
+@media (max-width:900px){
+    .articles{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+       
+    }
+
+}
 .articles{
     margin: 0 10%;
     padding-bottom: 1.5rem;
