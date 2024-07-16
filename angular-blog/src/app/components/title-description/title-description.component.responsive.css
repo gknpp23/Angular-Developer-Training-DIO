@@ -1,0 +1,21 @@
+@media (max-width: 500px){
+    .title__description__container{
+        gap:10px;    
+        height: 10rem;
+    
+    }
+    
+    .title__description__container .label {
+        display: none;
+    }
+    .title__description__container p, h1 {
+        width: 70%;
+        
+    }
+    
+    .title__description__container h1{
+        
+        font-size: 175%;
+    }
+}
+
