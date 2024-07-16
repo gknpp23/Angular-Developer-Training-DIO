@@ -1,0 +1,22 @@
+@media (max-width:500px) {
+    
+    .navbar__container{
+    
+        display: flex;
+        justify-content: space-between;
+        width: 50%;   
+        height: 5vh;
+        padding: 0;
+    }
+    
+    .navbar-links__container{
+        display: none;
+                
+    }
+   
+    .navbar-links__container img{
+    
+        width: 0.5rem;
+            
+    }
+}
