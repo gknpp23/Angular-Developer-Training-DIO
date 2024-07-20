@@ -1,0 +1,28 @@
+@media (max-width:420px){
+    .big-card__container{
+
+        width: 90vw;
+        height: 50%;
+    }
+    .big-card__title{
+        width: 65vw;
+        
+    }
+    
+    .big-card__picture{
+        width: 65vw;
+    }
+    .big-card__picture > img{
+        
+        padding: 0.3rem;
+                     
+    }
+    .big-card__title > h2{
+        font-size: 1.2rem;
+        
+    }
+    .big-card__title > p > a{
+        
+        font-size: 0.75rem;
+    } 
+}

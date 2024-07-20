@@ -11,10 +11,11 @@
 
 }
 .articles{
-    margin: 0 10%;
+    margin: auto;
     padding-bottom: 1.5rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
    
 }

@@ -1,0 +1,11 @@
+@media (max-width:420px){
+    .small-card__container{
+       
+        width: 90vw;
+        height: 20vh;
+    }
+    
+    .small-card__title > h2 {
+        font-size: large;
+    }
+}
