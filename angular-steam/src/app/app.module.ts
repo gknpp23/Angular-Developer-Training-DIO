@@ -20,6 +20,13 @@ import { NavbarLogoComponent } from './components/navbar/navbar-logo/navbar-logo
 import { NavbarSearchBarComponent } from './components/navbar/navbar-search-bar/navbar-search-bar.component';
 import { NavbarNotificationComponent } from './components/navbar/navbar-notification/navbar-notification.component';
 import { NavbarProfileComponent } from './components/navbar/navbar-profile/navbar-profile.component';
+import { SideFlapComponent } from './components/sidebar/side-flap/side-flap.component';
+import { SideIconComponent } from './components/sidebar/side-flap/side-icon/side-icon.component';
+import { SideNameComponent } from './components/sidebar/side-flap/side-name/side-name.component';
+import { SideCardComponent } from './components/sidebar/side-card/side-card.component';
+import { SmallCardSpecialComponent } from './components/small-card-game/small-card-special/small-card-special.component';
+import { SmallCardSimpleComponent } from './components/small-card-game/small-card-simple/small-card-simple.component';
+import { SmallCardLabelComponent } from './components/small-card-game/small-card-label/small-card-label.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +47,14 @@ import { NavbarProfileComponent } from './components/navbar/navbar-profile/navba
     NavbarLogoComponent,
     NavbarSearchBarComponent,
     NavbarNotificationComponent,
-    NavbarProfileComponent
+    NavbarProfileComponent,
+    SideFlapComponent,
+    SideIconComponent,
+    SideNameComponent,
+    SideCardComponent,
+    SmallCardSpecialComponent,
+    SmallCardSimpleComponent,
+    SmallCardLabelComponent
   ],
   imports: [
     BrowserModule,
