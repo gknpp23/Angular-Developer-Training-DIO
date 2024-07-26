@@ -16,6 +16,10 @@ import { BigCardGameButtonComponent } from './components/big-card-game/big-card-
 import { BigCardGameSystemIconComponent } from './components/big-card-game/big-card-game-description/big-card-game-system-icon/big-card-game-system-icon.component';
 import { BigCardGameValueComponent } from './components/big-card-game/big-card-game-description/big-card-game-value/big-card-game-value.component';
 import { CarrouselComponent } from './components/carousel/carrousel.component';
+import { NavbarLogoComponent } from './components/navbar/navbar-logo/navbar-logo.component';
+import { NavbarSearchBarComponent } from './components/navbar/navbar-search-bar/navbar-search-bar.component';
+import { NavbarNotificationComponent } from './components/navbar/navbar-notification/navbar-notification.component';
+import { NavbarProfileComponent } from './components/navbar/navbar-profile/navbar-profile.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { CarrouselComponent } from './components/carousel/carrousel.component';
     BigCardGameButtonComponent,
     BigCardGameSystemIconComponent,
     BigCardGameValueComponent,
-    CarrouselComponent
+    CarrouselComponent,
+    NavbarLogoComponent,
+    NavbarSearchBarComponent,
+    NavbarNotificationComponent,
+    NavbarProfileComponent
   ],
   imports: [
     BrowserModule,
