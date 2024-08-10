@@ -1,0 +1,17 @@
+::ng-deep .custom-input .mat-mdc-text-field-wrapper {
+    height: 2.25rem !important;
+    flex: none !important;
+    will-change: unset !important;
+    align-items: center;
+    
+}
+::ng-deep .custom-input .mat-mdc-form-field-flex{
+    align-items: start;
+}
+mat-form-field {
+    width: 25rem;
+    
+}
+
+
+  
