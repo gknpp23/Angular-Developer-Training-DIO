@@ -27,6 +27,8 @@ import { SideCardComponent } from './components/sidebar/side-card/side-card.comp
 import { SmallCardSpecialComponent } from './components/small-card-game/small-card-special/small-card-special.component';
 import { SmallCardSimpleComponent } from './components/small-card-game/small-card-simple/small-card-simple.component';
 import { SmallCardLabelComponent } from './components/small-card-game/small-card-label/small-card-label.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+
 
 @NgModule({
   declarations: [
@@ -59,8 +61,11 @@ import { SmallCardLabelComponent } from './components/small-card-game/small-card
   imports: [
     BrowserModule,
     AppRoutingModule
+    
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
