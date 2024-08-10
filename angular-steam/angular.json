@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-steam:build:production"
+              "buildTarget": "angular-steam:build:production"
             },
             "development": {
-              "browserTarget": "angular-steam:build:development"
+              "buildTarget": "angular-steam:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-steam:build"
+            "buildTarget": "angular-steam:build"
           }
         },
         "test": {
