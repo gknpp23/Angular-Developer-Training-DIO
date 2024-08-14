@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-navbar-search-bar',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar-search-bar.component.css']
 })
 export class NavbarSearchBarComponent implements OnInit {
+  
+  
+  
 
   constructor() { }
 
+  
   ngOnInit(): void {
+    
   }
 
 }

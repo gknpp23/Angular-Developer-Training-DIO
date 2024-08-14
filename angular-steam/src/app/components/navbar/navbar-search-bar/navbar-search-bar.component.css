@@ -3,15 +3,29 @@
     flex: none !important;
     will-change: unset !important;
     align-items: center;
-    
 }
+
+
 ::ng-deep .custom-input .mat-mdc-form-field-flex{
-    align-items: start;
+    align-items: start;    
+        
 }
+
+::ng-deep .custom-input .mat-mdc-form-field-infix{
+    align-items: start;           
+}
+
 mat-form-field {
-    width: 25rem;
-    
+    width: 25rem; 
 }
+
+
+
+/* ::ng-deep .custom-input .mat-mdc-input-element{
+    border: none !important; 
+    pointer-events: none;
+}
+   */
 
 
   
