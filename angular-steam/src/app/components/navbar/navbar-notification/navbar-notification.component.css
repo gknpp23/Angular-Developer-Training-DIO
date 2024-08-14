@@ -1,5 +1,8 @@
 .wrapper{
+    width: 100%;
     display: flex;
+   justify-content: space-between;
+   align-items: center;
     gap: 1.25rem;
 }
 .icon-container {

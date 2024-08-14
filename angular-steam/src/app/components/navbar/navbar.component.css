@@ -2,6 +2,6 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:5rem;
+    gap: 4rem;
     margin: 25px 0px 0px 10px;
 }

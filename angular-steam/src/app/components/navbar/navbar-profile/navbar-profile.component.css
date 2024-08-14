@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-right: 1.75rem;
+}
+div > img {
+    width: 40px;
+}
