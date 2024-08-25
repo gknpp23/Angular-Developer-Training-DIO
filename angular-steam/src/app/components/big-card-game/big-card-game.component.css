@@ -1,0 +1,15 @@
+.container-card{
+    height: 85vh !important;
+    width: 90vw !important;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr; 
+    grid-template-rows: 1fr;
+    column-gap: 12px;
+    background-color: #15181E;
+    border: none !important;
+    
+}
+
+/* .big-card,.small-card{
+    height: 100% !important;
+} */
