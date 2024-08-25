@@ -1,0 +1,29 @@
+.sidenav-container{
+    min-height: 20rem !important;
+    padding: 1rem 0 0 3.5rem ;
+    background-color: #15181E;
+    /* background-color: #f0f0f18f; */
+}
+
+.mat-sidenav{
+    max-width: 10rem !important;
+    padding-top: 1.5rem;
+    background-color: #15181E;
+    color: aliceblue;
+    border-radius: 0% !important;
+}
+.mat-sidenav p {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.mat-sidenav-content{
+    min-width: 90vw;
+    /* max-width: 95vw; */
+    min-height: 65vh;
+    /* padding: 2rem; */
+    background-color: #f0f0f18f;
+    overflow: hidden;
+}
+      

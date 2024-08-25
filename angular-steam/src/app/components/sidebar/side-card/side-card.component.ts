@@ -10,6 +10,7 @@ export class SideCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
