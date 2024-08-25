@@ -10,6 +10,28 @@
     
 }
 
-/* .big-card,.small-card{
-    height: 100% !important;
-} */
+.big-card{
+    /* transform: scaleX(-1); //Espelhando imagem para que inverta a posição */
+    
+    background-image: 
+    url('https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-steam/logo-stray.png?raw=true'),
+    url('https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/main/angular-steam/stray-hero-cat-background-block-desktop-01-ps4-ps5-en-13jun22.webp');
+    
+    background-position: 
+      center,
+      center;
+
+    background-size: 
+      75%,
+      cover;
+
+    background-repeat: 
+      no-repeat,
+      no-repeat;
+
+    
+    
+    
+    
+    
+}
