@@ -14,7 +14,7 @@
 <br>
 <hr>
 
-<p align="center"><img src="img/bootcamp-PAN.webp"  width="650"></p>
+<p align="center"><img src="img/Angular.webp"  width="500"></p>
 
 ### Tópicos 
 
