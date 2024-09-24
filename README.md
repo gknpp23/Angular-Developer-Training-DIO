@@ -1,5 +1,5 @@
-<h1 align="center">| Coding The Future - Banco Pan |</h1> 
-<h2 align="center">Frontend development with Angular</h2>
+<h1 align="center">| Angular Developer Training DIO |</h1> 
+
 <p align="center"><img src="img/DIO.png"  width="150"></p>
 <br>
 <p align="center">
@@ -29,7 +29,7 @@
 
 ## Descrição do projeto 
 <p> 
-  Este repositório é o resultado dos meus estudos durante o bootcamp ofertado pelo banco Pan na plataforma DIO.  
+  Este repositório é o resultado dos meus estudos durante a formação de Angular na plataforma DIO.  
   
   Aqui, você encontrará anotações detalhadas e código-fonte relacionado aos projetos desenvolvidos durante o curso.
   
@@ -88,7 +88,7 @@ Espero que este recurso seja útil para quem procura aprender mais sobre JavaScr
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2022 - Formação JS DIO.
+Copyright :copyright: 2024 - Formação Angular DIO.
 
 <hr>
 
