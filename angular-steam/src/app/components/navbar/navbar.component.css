@@ -3,6 +3,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-evenly;  
-    gap: 2rem;  
-    margin: 25px 10px 5px 5px;
+    gap: 1.5rem;  
+    margin: 5px 10px 5px 5px;
+    padding-top: 20px;
 }
