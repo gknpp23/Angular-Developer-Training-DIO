@@ -1,7 +1,10 @@
 mat-card{
+    height: 25vw !important;
     font-size: 10px;     
     color:aliceblue;
     line-height: 1rem;
+    margin-bottom: 15px;
+    
     
 }
 mat-card h3{
@@ -23,6 +26,7 @@ mat-card::before {
     background: url('https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/main/angular-steam/stray-hero-cat-background-block-desktop-01-ps4-ps5-en-13jun22.webp') no-repeat right/ 500%; 
     filter: blur(5px); /* Adjust the blur intensity */
     z-index: 0; /* Ensure the background is behind the content */
+    border-radius: 5% !important;
 }
 
 mat-card-content {
