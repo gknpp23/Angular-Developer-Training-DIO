@@ -1,9 +1,10 @@
 mat-card{
     height: 25vw !important;
+    width: 25vw !important;
     font-size: 10px;     
     color:aliceblue;
     line-height: 1rem;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     
     
 }

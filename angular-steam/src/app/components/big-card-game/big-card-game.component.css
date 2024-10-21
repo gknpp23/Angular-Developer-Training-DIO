@@ -1,8 +1,9 @@
 .container-card{
-    height: 85vh !important;
+    margin: auto;
+    height: 70vh !important;
     width: 85vw !important;
     display: grid;
-    grid-template-columns: 1.5fr 0.65fr; 
+    grid-template-columns: 1.75fr 0.65fr; 
     grid-template-rows: 1.75fr 0.25fr;
     column-gap: 15px;
     background-color: #15181E;
@@ -14,20 +15,17 @@
     /* transform: scaleX(-1); //Espelhando imagem para que inverta a posição */
     
     background-image: 
-    url('https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-steam/logo-stray.png?raw=true'),
-    url('https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/main/angular-steam/stray-hero-cat-background-block-desktop-01-ps4-ps5-en-13jun22.webp');
+    
+    url('https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-steam/stray.jpg?raw=true');
     
     background-position: 
-      center,
       center;
 
     background-size: 
-      75%,
       cover;
 
     background-repeat: 
-      no-repeat,
-      no-repeat;
+        no-repeat;
 
        
     
