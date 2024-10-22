@@ -1,0 +1,7 @@
+div{
+    margin: auto;
+}
+div > img{
+    width: 20vw;
+    height: 45vh;
+}
