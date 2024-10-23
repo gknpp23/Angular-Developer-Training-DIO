@@ -31,4 +31,19 @@
     background-color: #15181E;
     overflow: hidden;
 }
-      
+
+
+
+.sidenav-container {
+    max-height: 100vh;
+}
+  
+.content-open {
+    width: calc(100% - 250px); /* Ajuste para o tamanho da sidebar */
+    transition: width 0.8s ease; /* Animação suave ao abrir/fechar */
+}
+  
+.content-closed {
+    width: 100%;
+    transition: width 0.8s ease;
+}

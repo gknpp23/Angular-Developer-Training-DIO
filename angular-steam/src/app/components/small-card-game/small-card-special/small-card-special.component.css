@@ -1,7 +1,8 @@
 div{
     margin: auto;
+    overflow:hidden;
 }
 div > img{
-    width: 20vw;
+    max-width: 20vw;
     height: 45vh;
 }

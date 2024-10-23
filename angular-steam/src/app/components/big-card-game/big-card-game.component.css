@@ -1,7 +1,7 @@
 .container-card{
     margin: auto;
-    height: 70vh !important;
-    width: 85vw !important;
+    max-height: 70vh !important;
+    max-width: 85vw !important;
     display: grid;
     grid-template-columns: 1.75fr 0.65fr; 
     grid-template-rows: 1.75fr 0.25fr;
