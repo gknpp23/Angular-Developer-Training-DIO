@@ -1,14 +1,17 @@
 .sidenav-container{
     min-height: 20rem !important;
+    max-height: 100rem !important;
     padding: 1rem 0 0 3.5rem ;
     background-color: #15181E;
-    margin-left: 3rem;
+    
     /* background-color: #f0f0f18f; */
 }
 
 .mat-sidenav{
-    max-width: 10rem !important;
+    
+    max-width: 14.5rem !important;
     padding-top: 1.5rem;
+    padding-left: 3rem;
     background-color: #15181E;
     color: aliceblue;
     border-radius: 0% !important;
@@ -23,6 +26,7 @@
     min-width: 90vw;
     /* max-width: 95vw; */
     min-height: 65vh;
+    margin-left: 3rem;
     /* padding: 2rem; */
     background-color: #15181E;
     overflow: hidden;

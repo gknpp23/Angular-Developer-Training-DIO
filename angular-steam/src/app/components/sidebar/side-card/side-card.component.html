@@ -31,13 +31,17 @@
       </p>
     </mat-sidenav>
   
-    <mat-sidenav-content>
+    <mat-sidenav-content> <!-- alterar o valor da largura desse container ao abrir a sidebar-->
       <!-- Conteúdo Principal -->
       <button mat-button (click)="sidenav.toggle()"> <<< </button>
+     
       <div>
-        <app-big-card-game></app-big-card-game>
-        
-        <div>
+        <app-big-card-game></app-big-card-game> <!-- Passar valores de largura/altura de forma relativa-->
+        <p>Special Offers</p>
+        <div style="display: flex; gap: 25px; padding: 50px; margin: auto;">
+            <app-small-card-special></app-small-card-special> <!-- e necessário adicionar imagem e largura de forma dinamica -->
+            <app-small-card-special></app-small-card-special>
+            <app-small-card-special></app-small-card-special>
             <app-small-card-special></app-small-card-special>
         </div>
         
