@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card-special',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./small-card-special.component.css']
 })
 export class SmallCardSpecialComponent implements OnInit {
-
+  @Input()  widthIfClosed!: string;
   constructor() { }
 
   ngOnInit(): void {

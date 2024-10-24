@@ -17,6 +17,9 @@ export class SideCardComponent implements OnInit {
     this.sidenav.toggle();
     this.isSidenavOpen = !this.isSidenavOpen; // Atualizar estado da sidebar
   }
+  getWidth(){
+    return this.isSidenavOpen ? '17.25vw' : '20vw';
+  }
   constructor() { }
 
   ngOnInit(): void {

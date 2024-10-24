@@ -39,11 +39,25 @@
 }
   
 .content-open {
-    width: calc(100% - 250px); /* Ajuste para o tamanho da sidebar */
+    width: calc(100% - 14.5rem); /* Ajuste para o tamanho da sidebar */
     transition: width 0.8s ease; /* Animação suave ao abrir/fechar */
 }
   
 .content-closed {
+    width: 100%;
+    transition: width 0.8s ease;
+}
+
+.content-special-open{
+    width: calc(100% - 1px);
+    transition: width 0.8s ease;
+    padding: 00px !important;
+    margin-bottom: 35px !important;
+  
+    
+}
+
+.content-special-closed{
     width: 100%;
     transition: width 0.8s ease;
 }
