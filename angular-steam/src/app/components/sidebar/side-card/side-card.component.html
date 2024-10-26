@@ -37,12 +37,20 @@
      
       <div [ngClass]="{'content-open': isSidenavOpen, 'content-closed': !isSidenavOpen}">
         <app-big-card-game></app-big-card-game> <!-- Passar valores de largura/altura de forma relativa-->
+        
         <p>Special Offers</p>
+
         <div [ngClass]="{'content-special-open': isSidenavOpen, 'content-special-closed': !isSidenavOpen}" class="special-cards-container" style="display: flex; gap: 1.5em; padding: 2.75em; margin: auto; overflow: hidden;"><!--adicionar estilos para a barra fechada/aberta-->
-            <app-small-card-special [widthIfClosed]="getWidth()"></app-small-card-special> <!-- e necessário adicionar imagem e largura de forma dinamica -->
-            <app-small-card-special [widthIfClosed]="getWidth()"></app-small-card-special>
-            <app-small-card-special [widthIfClosed]="getWidth()"></app-small-card-special>
-            <app-small-card-special [widthIfClosed]="getWidth()"></app-small-card-special>
+            <app-small-card-special 
+            [widthIfClosed]="getWidth()" 
+            [imageUrl]="currentImageUrlCard01">
+            </app-small-card-special> 
+
+            <app-small-card-special [widthIfClosed]="getWidth()" [imageUrl]="currentImageUrlCard01"></app-small-card-special>
+
+            <app-small-card-special [widthIfClosed]="getWidth()" [imageUrl]="currentImageUrlCard01"></app-small-card-special>
+
+            <app-small-card-special [widthIfClosed]="getWidth()" [imageUrl]="currentImageUrlCard01"></app-small-card-special>
         </div>
         
       </div>

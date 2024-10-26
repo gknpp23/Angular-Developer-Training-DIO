@@ -12,14 +12,24 @@ export class SideCardComponent implements OnInit {
   
   // Propriedade que controla o estilo do container principal
   isSidenavOpen: boolean = true;
+   
 
   toggleSidenav() {
     this.sidenav.toggle();
     this.isSidenavOpen = !this.isSidenavOpen; // Atualizar estado da sidebar
   }
+  
   getWidth(){
     return this.isSidenavOpen ? '17.25vw' : '20vw';
   }
+
+ // definição das imagens das ofertas especiais
+  currentImageUrlCard01: string = 'https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/refs/heads/main/angular-steam/stray-store-artwork-01-en-10jun22.webp';
+  currentImageUrlCard02: string = ''
+  currentImageUrlCard03: string = ''
+  currentImageUrlCard04: string = ''
+
+
   constructor() { }
 
   ngOnInit(): void {
