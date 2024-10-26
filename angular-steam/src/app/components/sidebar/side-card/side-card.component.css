@@ -30,7 +30,7 @@
     /* padding: 2rem; */
     background-color: #15181E;
     overflow: hidden;
-    color: aliceblue;
+    color: #ffffff;
 }
 
 
@@ -51,8 +51,8 @@
 
 .content-special-open{
     width: calc(100% - 1px);
-    transition: width 0.8s ease;
-    padding: 00px !important;
+    transition: width 15s ease;
+    padding: 2rem 0px 0px 0px !important;
     margin-bottom: 35px !important;
   
     
@@ -60,5 +60,5 @@
 
 .content-special-closed{
     width: 100%;
-    transition: width 0.8s ease;
+    transition: width 0.9s ease;
 }

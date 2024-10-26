@@ -24,10 +24,10 @@ export class SideCardComponent implements OnInit {
   }
 
  // definição das imagens das ofertas especiais
-  currentImageUrlCard01: string = 'https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/refs/heads/main/angular-steam/stray-store-artwork-01-en-10jun22.webp';
-  currentImageUrlCard02: string = ''
-  currentImageUrlCard03: string = ''
-  currentImageUrlCard04: string = ''
+  currentImageUrlCard01: string = 'https://raw.githubusercontent.com/gknpp23/Angular-Developer-Training-DIO/refs/heads/main/angular-steam/no-man-s-sky-indie-cke.webp'
+  currentImageUrlCard02: string = 'https://raw.githubusercontent.com/gknpp23/Angular-Developer-Training-DIO/refs/heads/main/angular-steam/cuphead.jpg'
+  currentImageUrlCard03: string = 'https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-steam/among-us_8kks.jpg?raw=true'
+  currentImageUrlCard04: string = 'https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-steam/sgp_inside_review_capa.jpg?raw=true';
 
 
   constructor() { }
