@@ -30,3 +30,15 @@
        
     
 }
+
+
+mat-chip{
+  background-color: #15181E !important;
+  color: blue;
+  border: none !important;
+  
+}
+
+mat-chip > span{
+  border: none !important;
+}
