@@ -1,23 +1,24 @@
-mat-card{
+mat-card {
     padding: 2px;
-    min-height: 25vw !important;
-    max-width: 25vw !important;
-
+    min-height: 25vw;
+    max-width: 25vw;
     font-size: 16px;     
     font-weight: 700;
-    color:#f7f7f7;
+    color: #f7f7f7;
     line-height: 1.25rem;
     margin-bottom: 25px;
-    
-    
+    position: relative;
+    overflow: hidden;
 }
-mat-card h3{
+
+mat-card h3 {
     font-size: 24px;
     text-align: left;
     font-weight: 700;
 }
-mat-card p{
-    text-align:left;
+
+mat-card p {
+    text-align: left;
 }
 
 mat-card::before {
@@ -27,10 +28,10 @@ mat-card::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/main/angular-steam/stray-hero-cat-background-block-desktop-01-ps4-ps5-en-13jun22.webp') no-repeat right/ 500%; 
-    filter: blur(5px); /* Adjust the blur intensity */
-    z-index: 0; /* Ensure the background is behind the content */
-    border-radius: 5% !important;
+    background: url('https://github.com/gknpp23/Angular-Developer-Training-DIO/raw/main/angular-steam/stray-hero-cat-background-block-desktop-01-ps4-ps5-en-13jun22.webp') no-repeat right / 500%; 
+    filter: blur(5px);
+    z-index: 0;
+    border-radius: 5%;
 }
 
 mat-card-content {
@@ -39,4 +40,56 @@ mat-card-content {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+/* Responsivo para tablets */
+@media (max-width: 1024px) {
+    mat-card {
+        min-height: 28vw;
+        max-width: 28vw;
+    }
+    
+    mat-card h3 {
+        font-size: 20px;
+    }
+}
+
+/* Responsivo para tablet pequeno */
+@media (max-width: 768px) {
+    mat-card {
+        min-height: auto;
+        max-width: none;
+        width: 100%;
+        height: 200px;
+        font-size: 14px;
+    }
+    
+    mat-card h3 {
+        font-size: 18px;
+    }
+    
+    mat-card-content {
+        padding: 15px;
+    }
+}
+
+/* Responsivo para mobile */
+@media (max-width: 480px) {
+    mat-card {
+        height: 150px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    mat-card h3 {
+        font-size: 16px;
+    }
+    
+    mat-card p {
+        font-size: 12px;
+    }
+    
+    mat-card-content {
+        padding: 12px;
+    }
 }

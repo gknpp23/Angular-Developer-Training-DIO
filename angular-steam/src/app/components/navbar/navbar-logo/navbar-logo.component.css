@@ -1,3 +1,23 @@
 img {
     width: 11.5rem;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+    img {
+        width: 8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 4.5rem;
+    }
 }

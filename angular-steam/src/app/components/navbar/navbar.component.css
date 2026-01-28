@@ -1,9 +1,39 @@
 div {
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;  
-    gap: 1.5rem;  
-    margin: 5px 10px 5px 5px;
-    padding-top: 15px;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0;
+    padding: 12px 16px;
+    background-color: #15181E;
+    border-bottom: 1px solid #2a2d34;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Responsivo para tablets */
+@media (max-width: 1024px) {
+    div {
+        gap: 0.8rem;
+        padding: 10px 12px;
+    }
+}
+
+/* Responsivo para mobile */
+@media (max-width: 768px) {
+    div {
+        justify-content: space-around;
+        gap: 0.5rem;
+        padding: 8px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    div {
+        gap: 0.25rem;
+        padding: 6px 4px;
+    }
 }
