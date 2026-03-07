@@ -59,12 +59,6 @@
 
 <br>
 
-## Deploy do projeto :dash:
-
-###   Projeto - Buzzfeed
->
-<br>
-
 <hr>
 
 ## Como executar :arrow_forward:
