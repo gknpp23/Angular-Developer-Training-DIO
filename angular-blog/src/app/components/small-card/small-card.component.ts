@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
+  standalone: false,
   templateUrl: './small-card.component.html',
   styleUrls:
   [

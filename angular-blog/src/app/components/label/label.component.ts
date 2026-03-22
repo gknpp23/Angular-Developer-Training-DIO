@@ -2,6 +2,7 @@ import { Component,HostBinding,Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-label',
+  standalone: false,
   templateUrl: './label.component.html',
   styleUrls:
   [

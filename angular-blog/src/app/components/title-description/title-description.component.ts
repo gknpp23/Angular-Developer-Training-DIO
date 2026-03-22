@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-title-description',
+  standalone: false,
   templateUrl: './title-description.component.html',
   
   //Uma folha de estilo para desktop e outra para responsividade
