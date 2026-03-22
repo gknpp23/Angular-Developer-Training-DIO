@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
+  @Input() collapsed = false;
+
+  navItems = [
+    { icon: 'home', label: 'Início' },
+    { icon: 'apps', label: 'Biblioteca' },
+    { icon: 'groups', label: 'Comunidade' },
+    { icon: 'store', label: 'Loja' },
+    { icon: 'download', label: 'Downloads' },
+  ];
 
   constructor() { }
 

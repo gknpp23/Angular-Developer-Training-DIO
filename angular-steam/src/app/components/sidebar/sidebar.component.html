@@ -1,1 +1,13 @@
-<app-side-card></app-side-card>
+<nav class="sidebar" [class.is-collapsed]="collapsed">
+  <div class="logo">NX</div>
+  <div class="nav-list">
+    <button *ngFor="let item of navItems" class="nav-item" [title]="item.label">
+      <span class="material-symbols-outlined">{{ item.icon }}</span>
+      <span class="label" [class.hide]="collapsed">{{ item.label }}</span>
+    </button>
+  </div>
+  <div class="status" [class.hide]="collapsed">
+    <p>Online</p>
+    <small>Conectado</small>
+  </div>
+</nav>

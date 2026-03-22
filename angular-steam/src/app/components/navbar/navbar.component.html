@@ -1,6 +1,14 @@
-<div>
-    <app-navbar-logo></app-navbar-logo>
-    <app-navbar-search-bar></app-navbar-search-bar>
-    <app-navbar-notification></app-navbar-notification>
-    <app-navbar-profile></app-navbar-profile>
-</div>
+<header class="navbar glass">
+  <button class="icon-btn" (click)="onToggle()" [attr.aria-expanded]="!collapsed">
+    <span class="material-symbols-outlined">menu</span>
+  </button>
+  <div class="search">
+    <span class="material-symbols-outlined">search</span>
+    <input type="search" placeholder="Buscar jogos, amigos, criadores" />
+  </div>
+  <div class="actions">
+    <button class="ghost">Loja</button>
+    <button class="ghost">Biblioteca</button>
+    <div class="avatar"></div>
+  </div>
+</header>

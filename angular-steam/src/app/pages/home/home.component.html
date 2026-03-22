@@ -1,6 +1,53 @@
-<div class="home__container">
-    <app-navbar></app-navbar>
-    <app-sidebar></app-sidebar>
-    <!-- <app-big-card-game></app-big-card-game> -->
-    <!-- <app-small-card-game></app-small-card-game> -->
+<div class="layout" [class.is-collapsed]="isCollapsed">
+  <aside class="sidebar-slot">
+    <app-sidebar [collapsed]="isCollapsed"></app-sidebar>
+  </aside>
+
+  <section class="main">
+    <div class="atmosphere"></div>
+
+    <app-navbar [collapsed]="isCollapsed" (toggleSidebar)="toggleSidebar()"></app-navbar>
+
+    <section class="hero">
+      <div class="hero-left glass">
+        <div class="hero-left__header">
+          <span class="pill">Featured</span>
+          <span class="pill pill-alt">New</span>
+        </div>
+        <h2>Neon Exodus</h2>
+        <p class="lead">
+          Slip into the rain-soaked megacity, hack the grid, and outrun the Syndicate hunters in a cinematic co-op heist.
+        </p>
+        <div class="hero-actions">
+          <button class="btn primary">Play now</button>
+          <button class="btn ghost">Add to collection</button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="sidecard glass">
+          <p class="side-kicker">Premium drop</p>
+          <h3>Neon Exodus</h3>
+          <p class="side-desc">Heist, escape, upgrade your rig, and control the city grid.</p>
+          <div class="side-meta">
+            <span class="price">$39.99</span>
+            <span class="platform">PC / PS5 / XSX</span>
+          </div>
+          <button class="cta">Available now</button>
+        </div>
+
+        <div class="thumbnails">
+          <div class="thumb"></div>
+          <div class="thumb"></div>
+          <div class="thumb"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-cards">
+      <div class="panel glass">Dynamic content slot 1</div>
+      <div class="panel glass">Dynamic content slot 2</div>
+      <div class="panel glass">Dynamic content slot 3</div>
+    </section>
+  </section>
 </div>
