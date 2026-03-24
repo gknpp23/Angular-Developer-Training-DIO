@@ -1,41 +1,48 @@
-<header><app-navbar></app-navbar></header>
-<app-title-description class="teste"></app-title-description>
-<div class="articles">
-    <div class="articles__main">
-        <app-big-card 
-        textLabel="Who's"
-        bgColorLabel="linear-gradient(135deg, #b90101, #C98508)"
-        photoCover="https://avatars.githubusercontent.com/u/47991004?s=400&u=6214c973447aff091b334f1af0a55994151a0c22&v=4"
-        cardTitle="Quem sou eu ? "
-        cardDescription="Um pouco mais sobre mim"
-        >
-        </app-big-card>
+<header class="masthead">
+  <app-navbar></app-navbar>
+</header>
+
+<section class="blog-slider">
+  <div class="slider-window">
+    <div class="slider-track" [style.transform]="trackTransform">
+      <div class="slide" *ngFor="let slide of slides; let i = index">
+        <div class="slide-right">
+          <div class="editorial-layout">
+            <div class="col-left">
+              <span class="vertical-title">{{ slide.leftLabel }}</span>
+            </div>
+            <div class="col-main">
+              <p class="tag">{{ slide.meta }}</p>
+              <h1>{{ slide.title }}</h1>
+              <div class="body-text">
+                <p>{{ slide.description }}</p>
+                <p>{{ slide.detail }}</p>
+              </div>
+              <div class="meta-row">
+                <span class="pill-label">{{ slide.date }}</span>
+                <span class="pill-label ghost">{{ slide.category }}</span>
+              </div>
+              <div class="nav-arrows" aria-label="Navegação de slides">
+                <button aria-label="Anterior" (click)="prevSlide()">←</button>
+                <button aria-label="Próximo" (click)="nextSlide()">→</button>
+              </div>
+            </div>
+            <div class="col-right">
+              <span class="vertical-title">{{ slide.rightLabel }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="articles__additional">
+  </div>
 
-        <app-small-card 
-        textLabel = "Leitura"
-        bgColorLabel="linear-gradient(135deg, #3B191E, #FA0B16)"
-        smallPhotoCover="https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-blog/src/assets/image/image_01.jpg?raw=true" 
-        smallCardTitle="Livros bãos"
-        >
-        </app-small-card>
-
-        <app-small-card 
-        textLabel="Rádio pião"
-        bgColorLabel="linear-gradient(135deg, #121578, #a3313a)"
-        smallPhotoCover="https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-blog/src/assets/image/image_02.jpg?raw=true" 
-        smallCardTitle="Tá na boca do povo"
-        >
-        </app-small-card>
-
-        <app-small-card 
-        textLabel="Geral"
-        bgColorLabel="linear-gradient(135deg, #ba5018, #7d131c)"
-        smallPhotoCover="https://github.com/gknpp23/Angular-Developer-Training-DIO/blob/main/angular-blog/src/assets/image/image_03.jpg?raw=true" 
-        smallCardTitle="Uma luz no fim do túnel"
-        >
-        </app-small-card>
+  <div class="controls">
+    <button class="prev-button" aria-label="Slide anterior" (click)="prevSlide()">←</button>
+    <div class="dots">
+      <button *ngFor="let slide of slides; let i = index"
+              class="dot" [class.active]="i === currentIndex"
+              (click)="goToSlide(i)" aria-label="Ir para slide {{i + 1}}"></button>
     </div>
-</div>
-
+    <button class="next-button" aria-label="Próximo slide" (click)="nextSlide()">→</button>
+  </div>
+</section>
